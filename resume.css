@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 90px 1600px;
+    grid-template-columns: 1fr;
+}
+
+header {
+    background-color: white;
+    padding: 5px;
+}
+
+nav {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+nav section:nth-child(2) {
+    font-family: 'Sunflower', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav section:nth-child(3) {
+    font-family: 'Sunflower', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav section:nth-child(5) {
+    font-family: 'Sunflower', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav section:nth-child(6) {
+    font-family: 'Sunflower', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #471b00;
+}
+
+.logoea {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-top: 14%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav section{
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    background-image: url(../images/UX%20design%20resume%20new.png);
+    background-position: center;
+    background-size: cover;
+}

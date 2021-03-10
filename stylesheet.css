@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 90px 1600px;
+    grid-template-columns: 1fr;
+}
+
+header {
+    background-color: white;
+    padding: 5px;
+}
+
+nav {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+nav section:nth-child(2) {
+    font-family: 'Sunflower', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav section:nth-child(3) {
+    font-family: 'Sunflower', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav section:nth-child(5) {
+    font-family: 'Sunflower', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav section:nth-child(6) {
+    font-family: 'Sunflower', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #471b00;
+}
+
+.logoea {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-top: 14%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav section{
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.protohead {
+    font-family: 'Sunflower', sans-serif;
+    color: white;
+    font-size: 2em;
+    background-color: #471b00;
+    height: 100%;
+    width: 100%;
+    padding-left: 95px;
+}
+
+.firstrow {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.myselfpad{
+    padding: 100px;
+}
+
+.myself {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote {
+    font-size: 2.5em;
+    color: #471b00;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.dwellerspad {
+    padding-top: 72px;
+    
+}
+
+.dwellers {
+    height: auto;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dwellersinfo {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding-left: 100px;
+    background-color: white;
+}
+
+.dwellersinfo button {
+    background-color: #412300;
+    height: 40%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1.2em;
+    border: solid #412300 2px;
+    font-family: 'Sunflower', sans-serif;
+    cursor: pointer;
+}
+
+.dwellersinfo button:hover {
+    background-color: white;
+    border: solid #412300 2px;
+    color: #412300;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.dwellersinfo section:nth-child(2) {
+    background-color: white;
+    padding-top: 110px;
+    color: #412300;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.innitpad {
+    padding-top: 90px;
+}
+
+.innit {
+    height: auto;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innitinfo {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding-left: 100px;
+}
+
+.innitinfo button {
+    background-color: #412300;
+    height: 40%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1.2em;
+    border: solid #412300 2px;
+    font-family: 'Sunflower', sans-serif;
+    cursor: pointer;
+}
+
+.innitinfo button:hover {
+    background-color: white;
+    border: solid #412300 2px;
+    color: #412300;  
+    font-family: 'Sunflower', sans-serif;
+}
+
+.innitinfo section:nth-child(2) {
+    background-color: white;
+    text-align: center;
+    padding-top: 110px;
+    color: #412300;
+    font-family: 'Sunflower', sans-serif;
+}
+
+article {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+article section {
+    background-color: white;
+}
+
+/*footer {
+    background-color: coral;
+}*/
